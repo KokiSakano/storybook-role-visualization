@@ -9,7 +9,12 @@
     "build-storybook": "build-storybook"
   },
   "files": ["dist/**/*", "README.md", "*.js", "*.d.ts"],
-  "keywords": ["storybook", "addons"],
+  "storybook": {
+    "displayName": "Visualize a11y role addon",
+    "unsupportedFrameworks": ["react-native"],
+    "icon": ""
+  },
+  "keywords": ["storybook", "addons", "a11y"],
   "author": "Koki Sakano",
   "license": "MIT",
   "dependencies": {
