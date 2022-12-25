@@ -1,3 +1,15 @@
+# v1.0.2 (Sun Dec 25 2022)
+
+#### ⚠️ Pushed to `main`
+
+- リポジトリ追加 (kosakanoki@gmail.com)
+
+#### Authors: 1
+
+- Koki Sakano (kosakanoki@gmail.com)
+
+---
+
 # v1.0.1 (Sun Dec 25 2022)
 
 #### ⚠️ Pushed to `main`
