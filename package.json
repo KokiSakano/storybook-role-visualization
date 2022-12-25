@@ -1,6 +1,6 @@
 {
   "name": "storybook-role-visualization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "visualize aria-role",
   "main": "dist/preset.js",
   "repository": "https://github.com/KokiSakano/storybook-role-visualization",
