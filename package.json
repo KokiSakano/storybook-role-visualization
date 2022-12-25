@@ -1,6 +1,6 @@
 {
   "name": "storybook-role-visualization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "visualize aria-role",
   "main": "dist/preset.js",
   "scripts": {
@@ -8,13 +8,24 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "files": ["dist/**/*", "README.md", "*.js", "*.d.ts"],
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
   "storybook": {
     "displayName": "Visualize a11y role addon",
-    "unsupportedFrameworks": ["react-native"],
+    "unsupportedFrameworks": [
+      "react-native"
+    ],
     "icon": ""
   },
-  "keywords": ["storybook", "addons", "a11y"],
+  "keywords": [
+    "storybook",
+    "addons",
+    "a11y"
+  ],
   "author": "Koki Sakano",
   "license": "MIT",
   "dependencies": {
