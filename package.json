@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "visualize aria-role",
   "main": "dist/preset.js",
+  "repository": "https://github.com/KokiSakano/storybook-role-visualization",
   "scripts": {
     "build": "babel ./src -d ./dist --extensions \".js,.jsx,.ts,.tsx\" --watch",
     "storybook": "start-storybook -p 6006",
