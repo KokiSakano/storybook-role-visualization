@@ -1,16 +1,17 @@
 {
   "name": "storybook-role-visualization",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "visualize aria-role",
+  "main": "dist/preset.js",
   "scripts": {
-    "build": "babel ./src --out-dir ./dist",
+    "build": "babel ./src -d ./dist --extensions \".js,.jsx,.ts,.tsx\" --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": ["dist/**/*", "README.md", "*.js", "*.d.ts"],
+  "keywords": ["storybook", "addons"],
+  "author": "Koki Sakano",
+  "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.20.7",
     "react": "^18.2.0",
